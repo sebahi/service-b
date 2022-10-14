@@ -24,7 +24,10 @@ public class Receiver {
         public void receiveNotification(@NotificationMessage String message, 
           @NotificationSubject String subject) {
             // handle message
+<<<<<<< HEAD
             System.out.println(message);
+=======
+>>>>>>> 633ce10527d3d8149aa298c2612afbbdd8500caf
         }
 
         @NotificationUnsubscribeConfirmationMapping
